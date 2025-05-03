@@ -75,30 +75,6 @@ From the user interface (`home.html`):
 
 ---
 
-## 🔁 Project Structure
-
-```
-.
-├── README.md
-├── screenshots/
-│   ├── home-page.png
-│   ├── prediction.png
-│   └── azure-portal.png
-├── app.py
-├── requirements.txt
-├── randomForestRegressor.pkl
-├── static/
-│   └── css/
-│       └── style.css
-├── templates/
-│   └── home.html
-└── .github/
-    └── workflows/
-        └── azure-webapp.yml
-```
-
----
-
 ## 🤖 GitHub Actions CI/CD
 
 - Trigger: Push to `main` branch
