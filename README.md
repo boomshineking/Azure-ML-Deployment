@@ -51,7 +51,7 @@ From the user interface (`home.html`):
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/jaipur-aqi-predictor.git
+   git clone [https://github.com/your-username/jaipur-aqi-predictor.git](https://github.com/boomshineking/Azure-ML-Deployment)
    cd jaipur-aqi-predictor
    ```
 
