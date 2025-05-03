@@ -21,12 +21,19 @@ A Flask-based machine learning web application that predicts the **Air Quality I
 
 ## 📸 Screenshots
 
-| Home Page                        | Prediction Output                | Azure Deployment Proof           |
-|----------------------------------|----------------------------------|----------------------------------|
-| ![](screenshots/home-page.png)  | ![](screenshots/prediction.png) | ![](screenshots/azure-portal.png) |
-
-> Make sure you place your actual screenshots in the `/screenshots/` folder of your repository.
-
+| Home Page     
+![jaipur](https://github.com/user-attachments/assets/28571218-5cc5-4e9c-a189-70bb5c42a2fd)
+|--------------------------------------------------------------------------------------------------------------------------|
+| Prediction Output      
+![Jaipur result](https://github.com/user-attachments/assets/2fe3e34f-46b0-4126-80fd-fef3e5ee9135)
+|--------------------------------------------------------------------------------------------------------------------------|
+| Azure Deployment Proof 
+1.![Screenshot 2025-04-22 030044](https://github.com/user-attachments/assets/f8425b28-a1c4-4ee1-8591-60d26bfbcbc3)
+2.![Screenshot 2025-04-22 030244](https://github.com/user-attachments/assets/fb8c736f-61f0-4146-bd09-5682ca102a59)
+3.![Screenshot 2025-04-22 030944](https://github.com/user-attachments/assets/c54802cd-37f9-4972-a733-2dab8d02ad87)
+4.![Screenshot 2025-04-22 031818](https://github.com/user-attachments/assets/7b5561b7-c7c7-4263-b42f-072a6d199eb7)
+5.![Screenshot 2025-04-22 034702](https://github.com/user-attachments/assets/408792d8-b0d6-40a4-8143-b03b17c1f879)
+|--------------------------------------------------------------------------------------------------------------------------|
 ---
 
 ## 🖥️ How to Use
@@ -40,35 +47,6 @@ From the user interface (`home.html`):
 - **Minimum Temperature**
 - **Average Temperature**
 - **Average Wind Speed**
-
-The output will be rendered as:
-
-> `AQI for Jaipur 178.23`
-
----
-
-### 📡 API Usage
-
-`POST /predict_api`
-
-**Example Request (JSON):**
-```json
-{
-  "feature1": 12.1,
-  "feature2": 42.0,
-  "feature3": 22.5,
-  "feature4": 30.1,
-  "feature5": 10.0
-}
-```
-
-**Example Response:**
-```json
-178.23
-```
-
----
-
 ## ⚙️ Local Setup Instructions
 
 1. **Clone the Repository**
